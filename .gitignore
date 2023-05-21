@@ -148,3 +148,7 @@ media
 static
 /01-Hello/py/
 /03-Array/py/
+/04-Calc/*.interp
+/04-Calc/LabeledExprLexer.py
+/04-Calc/LabeledExprParser.py
+/04-Calc/LabeledExprVisitor.py

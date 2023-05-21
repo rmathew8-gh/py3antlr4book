@@ -1,4 +1,4 @@
-from ArrayInitListener import ArrayInitListener
+from py.ArrayInitListener import ArrayInitListener
 
 
 class RewriteListener(ArrayInitListener):

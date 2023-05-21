@@ -6,4 +6,5 @@ tt:
 	(cd py; pygrun ArrayInit init --tree ../input.txt)
 
 test:
-	PYTHONPATH=py python test_array.py input.txt
+	python test_array.py input.txt
+	@#PYTHONPATH=py python test_array.py input.txt
