@@ -5,6 +5,7 @@ from LabeledExprParser import LabeledExprParser
 
 
 class MyVisitor(LabeledExprVisitor):
+
     def __init__(self):
         self.memory = {}
 
@@ -17,6 +18,8 @@ class MyVisitor(LabeledExprVisitor):
     def visitPrintExpr(self, ctx):
         value = self.visit(ctx.expr())
         print(value)
+        import pdb
+        pdb.set_trace()  # roy
         return 0
 
     def visitInt(self, ctx):
